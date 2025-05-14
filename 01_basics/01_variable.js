@@ -1,14 +1,14 @@
 const accountId = 144553;
-let accountEmail = "hitesh@google.com";
+let accountEmail = "amandeep@google.com";
 var accountPassword = "12345";
-accountCity = "Jaipur";
+accountCity = "phagwara";
 let accountState;
 
 // accountId = 2 // not allowed
 
-accountEmail = "hc@hc.com";
+accountEmail = "sfd@hc.com";
 accountPassword = "21212121";
-accountCity = "Bengaluru";
+accountCity = "meghalaya";
 
 console.log(accountId);
 
@@ -24,3 +24,17 @@ console.table([
   accountCity,
   accountState,
 ]);
+
+
+
+function example() {
+  if (true) {
+    var a = 1;
+    let b = 2;
+    const c = 3;
+  }
+
+  console.log(a); // ✅ 1 (function-scoped)
+  console.log(b); // ❌ Error (block-scoped)
+  console.log(c); // ❌ Error (block-scoped)
+}
