@@ -7,10 +7,11 @@ console.log(3 + 3); // code readability should be high
 console.log("Amandeep");
 
 let name = "Amandeep";
-let age = 22;
+let age = 23;
 let isLoggedIn = false;
 let state;
 
+//Type of Datatypes in js
 // number => 2 to power 53
 // bigint
 // string => ""
