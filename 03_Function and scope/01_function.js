@@ -1,10 +1,12 @@
 function sayMyName() {
-  console.log("H");
-  console.log("I");
-  console.log("T");
-  console.log("E");
-  console.log("S");
-  console.log("H");
+  console.log("a");
+  console.log("m");
+  console.log("a");
+  console.log("n");
+  console.log("d");
+  console.log("e");
+  console.log("e");
+  console.log("p");
 }
 
 // sayMyName()
