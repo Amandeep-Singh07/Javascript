@@ -22,7 +22,7 @@ function addTwoNumbers(number1, number2) {
   return number1 + number2;
 }
 
-const result = addTwoNumbers(3, 5);
+const result =addTwoNumbers(3, 5);
 
 // console.log("Result: ", result);
 
@@ -34,18 +34,18 @@ function loginUserMessage(username = "sam") {
   return `${username} just logged in`;
 }
 
-// console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage("Amandeep"))
+// console.log(loginUserMessage(null))
 
-function calculateCartPrice(val1, val2, ...num1) {
+function calculateCartPrice(val1, val2, ...num1) {  // ... is a rest operator and is also called spread operator.
   return num1;
 }
 
-// console.log(calculateCartPrice(200, 400, 500, 2000))
+console.log(calculateCartPrice(200, 400, 500, 2000,89))
 
 const user = {
-  username: "hitesh",
-  prices: 199,
+  username: "aman",
+  price: 199,
 };
 
 function handleObject(anyobject) {
@@ -54,17 +54,17 @@ function handleObject(anyobject) {
   );
 }
 
-// handleObject(user)
-handleObject({
+handleObject(user)
+handleObject({            // here we are passing direct object
   username: "sam",
   price: 399,
 });
 
-const myNewArray = [200, 400, 100, 600];
+const myNewArray = [200, 700, 100, 600];
 
 function returnSecondValue(getArray) {
   return getArray[1];
 }
 
-// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200, 400, 500, 1000]));
