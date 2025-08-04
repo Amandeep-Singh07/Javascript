@@ -1,5 +1,5 @@
 // Control Flow statements...
-//if-else 
+//if-else statements
 
 const isUserloggedIn = true;
 const temperature = 41;
