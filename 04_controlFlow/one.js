@@ -1,4 +1,4 @@
-// Control flow 
+// Control flow statements
 // if-else statement and loops...
 
 const isUserloggedIn = true;
