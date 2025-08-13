@@ -11,7 +11,7 @@ const temperature = 41;
 // }
 
 // console.log("Execute");
-// <, >, <=, >=, ==, !=, ===, !==    different operators used with if-else
+// <, >, <=, >=, ==, !=, ===, !==    different types of operators used with if-else
 
 // const score = 200
 
