@@ -1,5 +1,4 @@
 // Control flow statements...
-// if-else statements....
 
 const isUserloggedIn = true;
 const temperature = 41;
@@ -11,7 +10,7 @@ const temperature = 41;
 // }
 
 // console.log("Execute");
-// <, >, <=, >=, ==, !=, ===, !==    different types of operators used with if-else statements....
+// // <, >, <=, >=, ==, !=, ===, !==   
 
 // const score = 200
 
