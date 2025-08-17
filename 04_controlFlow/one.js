@@ -10,7 +10,7 @@ const temperature = 41;
 // }
 
 // console.log("Execute");
-// // <, >, <=, >=, ==, !=, ===, !==   
+// // <, >, <=, >=, ==, !=, ===, !==   different operators
 
 // const score = 200
 
