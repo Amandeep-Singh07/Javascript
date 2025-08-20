@@ -10,7 +10,7 @@ const temperature = 41;
 // }
 
 // console.log("Execute");
-// // <, >, <=, >=, ==, !=, ===, !==   different operatorss .......
+// // <, >, <=, >=, ==, !=, ===, !==   different operators used with control flow statement .......
 
 // const score = 200
 
