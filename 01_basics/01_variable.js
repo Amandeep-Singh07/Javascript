@@ -13,8 +13,7 @@ accountCity = "meghalaya";
 console.log(accountId);
 
 /*
-Prefer not to use var
-because of issue in block scope and functional scope
+Prefer not to use var because of issue in block scope and functional scope
 */
 
 console.table([
@@ -36,5 +35,5 @@ function example() {
 
   console.log(a); // ✅ 1 (function-scoped)
   console.log(b); // ❌ Error (block-scoped)
-  console.log(c); // ❌ Error (block-scoped)
+  console.log(c); // ❌ Error (block-scoped)////
 }
