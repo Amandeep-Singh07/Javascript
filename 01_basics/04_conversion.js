@@ -61,5 +61,5 @@ console.log(typeof anotherId);
 
 //stack and heap memory in js
 
-// Stack -->> Primitive data type store hote h
-// heap -->> Non-Primitive datatype store hota h
+// Stack -->> Primitive data type store hote h  == Copy milta h
+// heap -->> Non-Primitive datatype store hota h == Reference milta h
