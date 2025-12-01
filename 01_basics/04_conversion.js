@@ -57,3 +57,9 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//stack and heap memory in js
+
+// Stack -->> Primitive data type store hote h
+// heap -->> Non-Primitive datatype store hota h
