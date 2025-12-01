@@ -62,7 +62,7 @@ console.log(real_another_array);
 
 console.log(Array.isArray("Hitesh"));
 console.log(Array.from("Hitesh")); // from is used to make an array
-console.log(Array.from({ name: "hitesh" })); // interesting
+console.log(Array.from({ name: "hitesh" })); // interesting case for an interview perspective
 
 let score1 = 100;
 let score2 = 200;
