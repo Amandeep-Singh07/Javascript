@@ -3,12 +3,12 @@
 
 // object literals
 
-const mySym = Symbol("key1");
-
+const mySym = Symbol("key1"); // create a symbol datatype
+ 
 const JsUser = {
   name: "amandeep",
   "full name": "amandeep singh",
-  [mySym]: "mykey1",         // way to define a symbol in a object
+  [mySym]: "mykey1",         // way to define a symbol in a object (IMPORTANT)
   age: 18,
   location: "Jaipur",
   email: "amandeep@google.com",
@@ -18,7 +18,7 @@ const JsUser = {
 
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
-// console.log(JsUser["full name"])
+// console.log(JsUser["full name"])  
 // console.log(JsUser[mySym])
 // console.log(typeof mySym);  
 
@@ -38,7 +38,7 @@ JsUser.greetingTwo = function () {
 console.log(JsUser.greetingTwo());
 
 
-/////////////////////////////////////////////////////
+///////// above we have created object literals below we will create singleton
 
 // const tinderUser = new Object()
 const tinderUser = {}
@@ -90,11 +90,11 @@ const users = [
 users[1].email
 // console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
+// console.log(Object.keys(tinderUser));   // returns an array of keys.
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));  // return true
 
 
 const course = {
