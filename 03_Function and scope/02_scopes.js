@@ -10,6 +10,9 @@ if (true) {
 // console.log(b);
 // console.log(c);
 
+
+/// From here nested scopes
+
 function one() {
   const username = "hitesh";
 
@@ -37,7 +40,7 @@ console.log(username);              // error
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
-console.log(addone(5));  // here we can access before declaration
+console.log(addone(5));  // here we can access before declaration  this is also known as hoisting
 
 function addone(num) {
   return num + 1;
