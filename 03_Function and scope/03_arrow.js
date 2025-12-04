@@ -18,7 +18,7 @@ const user = {
 
 function chai(){
     let username = "Aman"
-    console.log(this.username);         // this keyword is working with objects not functions will see later in detail
+    console.log(this.username);         // this keyword is working with objects not functions will see later in detail in DOM
 }
 
 chai()
@@ -41,7 +41,7 @@ chai()
 
 // const addTwo = (num1, num2) =>  num1 + num2
 
-// const addTwo = (num1, num2) => ( num1 + num2 )   // we are not using curly braces so we not need to use return keyword also
+// const addTwo = (num1, num2) => ( num1 + num2 )   // we are not using curly braces so we not need to use return keyword also (REACT )
 
 const addTwo = (num1, num2) => ({ username: "Aman" });
 
