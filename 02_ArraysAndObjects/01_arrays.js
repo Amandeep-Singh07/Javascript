@@ -53,14 +53,14 @@ const allHeros = marvel_heros.concat(dc_heros)  // difference between push and c
  
 const all_new_heros = [...marvel_heros, ...dc_heros];  // this ... is known as spread operator (it is similar to concat method)
 
-console.log(all_new_heros);
+// console.log(all_new_heros);
 
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]];
 
 const real_another_array = another_array.flat(Infinity);
 // console.log(real_another_array);
 
-// console.log(Array.isArray("Hitesh"));
+// console.log(Array.isArray("Hitesh"));  // isArray method is used to check whether the given data is an array or not
 // console.log(Array.from("Hitesh")); // from is used to make an array
 // console.log(Array.from({ name: "hitesh" })); // interesting case for an interview perspective
 
@@ -68,4 +68,4 @@ let score1 = 100;
 let score2 = 200;
 let score3 = 300;
 
-// console.log(Array.of(score1, score2, score3)); // .of() is used to create an array
+console.log(Array.of(score1, score2, score3)); // .of() is used to create an array
