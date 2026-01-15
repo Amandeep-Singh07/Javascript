@@ -1,6 +1,7 @@
 // Datatype Conversion
-let score = "Amandeep";
+let score = null;
 
+console.log(score)
 // console.log(typeof score);
 // console.log(typeof(score));
 
@@ -55,6 +56,7 @@ let str3 = str1 + str2;
 
 // console.log(+true);
 // console.log(+"");
+// console.log(+"123");
 
 let num1, num2, num3;
 
