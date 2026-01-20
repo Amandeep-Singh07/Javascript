@@ -4,13 +4,15 @@ const myArr = [0, 1, 2, 3, 4, 5];
 const myHeors = ["shaktiman", "naagraj"];
 
 const myArr2 = new Array(1, 2, 3, 4);
+console.log(typeof myArr2);
 // console.log(myArr[3]);
 
 // Array methods
 
-// myArr.push(6)
-// myArr.push(7)  
-// myArr.pop()  
+// myArr2.push(6)
+//  console.log(myArr2);
+// myArr.push(7)  // adds 7 to the last index of the array
+// myArr.pop()  // removes the last element of the array
 
 // myArr.unshift(9)  // adds 9 to the first index of the array
 // myArr.shift()     // removes the first element of the array
@@ -68,4 +70,4 @@ let score1 = 100;
 let score2 = 200;
 let score3 = 300;
 
-console.log(Array.of(score1, score2, score3)); // .of() is used to create an array
+// console.log(Array.of(score1, score2, score3)); // .of() is used to create an array
