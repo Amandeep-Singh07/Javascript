@@ -15,20 +15,20 @@ const gameName = new String("aman-ad-com");
 // console.log(gameName.charAt(2));
 // console.log(gameName.indexOf("t"));
 
-// const newString = gameName.substring(0, 4);
+const newString = gameName.substring(0, 4);
 // console.log(newString);
 
-// const anotherString = gameName.slice(-8, 4);
+const anotherString = gameName.slice(-8, 5);
 // console.log(anotherString);
 
 const newStringOne = "   aman    ";
-console.log(newStringOne);
-console.log(newStringOne.trim());
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
 
 const url = "www.google%20com";
 
-console.log(url.replace("%20", "-"));
+// console.log(url.replace("%20", "-"));
 
-console.log(url.includes("sundar")); // returns boolean value
+// console.log(url.includes("sundar")); // returns boolean value
 
-console.log(gameName.split("-"));
+// console.log(gameName.split("-"));
