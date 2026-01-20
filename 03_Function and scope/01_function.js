@@ -43,6 +43,8 @@ function calculateCartPrice(val1, val2, ...num1) {  // ... is a rest operator an
 
 console.log(calculateCartPrice(200, 400, 500, 2000,89))
 
+
+// objects as function parameters below
 const user = {
   username: "aman",
   price: 199,
@@ -59,6 +61,8 @@ handleObject({            // here we are passing direct object.
   username: "sam",
   price: 399,
 });
+
+// arrays as function parameters below
 
 const myNewArray = [200, 700, 100, 600];
 
