@@ -91,7 +91,7 @@ users[1].email
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));   // returns an array of keys.
-// console.log(Object.values(tinderUser));
+// console.log(Object.values(tinderUser)); // returns an array of values.
 // console.log(Object.entries(tinderUser));
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));  // return true
