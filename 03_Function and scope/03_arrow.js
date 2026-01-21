@@ -16,12 +16,12 @@ const user = {
 
 // console.log(this);   // here it will print {} but in browser it will show window 
 
-function chai(){
-    let username = "Aman"
-    console.log(this.username);         // this keyword is working with objects not functions will see later in detail in DOM
-}
+// function chai(){
+//     let username = "Aman"
+//     console.log(this.username);         // this keyword is working with objects not functions will see later in detail in DOM
+// }
 
-chai()
+// chai()
 
 // const chai = function () {
 //     let username = "Aman"
@@ -30,7 +30,7 @@ chai()
 
 // const chai = () => {         // arrow function created
 //   let username = "Aman";
-// //   console.log(this);
+//   console.log(this);         // here this keyword is not working in arrow function
 // };
 
 // chai()
@@ -43,10 +43,10 @@ chai()
 
 // const addTwo = (num1, num2) => ( num1 + num2 )   // we are not using curly braces so we not need to use return keyword also (REACT )
 
-const addTwo = (num1, num2) => ({ username: "Aman" });
+// const addTwo = (num1, num2) => ({ username: "Aman" });
 
-console.log(addTwo(3, 9));
+// console.log(addTwo(3, 9)); //  { username: 'Aman' }
 
-// const myArray = [2, 5, 3, 7, 8]
+const myArray = [2, 5, 3, 7, 8]
 
-// myArray.forEach()
+myArray.forEach()          // it will take function as an argument
