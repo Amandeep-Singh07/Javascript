@@ -50,3 +50,6 @@ addTwo(5);                      // but here it will throw error
 const addTwo = function (num) {
   return num + 2;
 };
+
+
+// what is hoisting ?  hoisting is a default behaviour of javascript in which we can access functions and variables before declaration. but this only works with function declaration not with function expression.
