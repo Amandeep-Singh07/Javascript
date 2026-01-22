@@ -14,11 +14,13 @@
 <script>
     function addLanguage(langName){
         const li = document.createElement('li');
-        li.innerHTML = `${langName}`
+        li.innerHTML = `${langName}`  // here we traversing the DOM twice
         document.querySelector('.language').appendChild(li)
     }
     addLanguage("python")
     addLanguage("typescript")
+
+    // below we are doing the same thing but optimized way
 
     function addOptiLanguage(langName){
         const li = document.createElement('li');
@@ -29,7 +31,7 @@
 
     //Edit
     const secondLang = document.querySelector("li:nth-child(2)")
-    console.log(secondLang);
+    // console.log(secondLang);
     //secondLang.innerHTML = "Mojo"
     const newli = document.createElement('li')
     newli.textContent = "Mojo"
