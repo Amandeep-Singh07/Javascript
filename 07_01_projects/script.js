@@ -2,20 +2,22 @@
 const buttons = document.querySelectorAll(".button");
 const body = document.querySelector("body");
 
-buttons.forEach(function (button) {
-  button.addEventListener("click", function (e) {
-    
-    if (e.target.id === "grey") {
-      body.style.backgroundColor = e.target.id;
+
+buttons.forEach(function (aman) {
+  aman.addEventListener("click", function (maggi) {
+    console.log(maggi.target.id);
+
+    if (maggi.target.id === "grey") {
+      body.style.backgroundColor = maggi.target.id;
     }
-    if (e.target.id === "white") {
-      body.style.backgroundColor = e.target.id;
+    if (maggi.target.id === "white") {
+      body.style.backgroundColor = maggi.target.id;
     }
-    if (e.target.id === "blue") {
-      body.style.backgroundColor = e.target.id;
+    if (maggi.target.id === "blue") {
+      body.style.backgroundColor = maggi.target.id;
     }
-    if (e.target.id === "yellow") {
-      body.style.backgroundColor = e.target.id;
+    if (maggi.target.id === "yellow") {
+      body.style.backgroundColor = maggi.target.id;
     }
   });
 });
