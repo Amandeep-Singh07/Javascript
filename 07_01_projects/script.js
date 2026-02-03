@@ -3,8 +3,8 @@ const buttons = document.querySelectorAll(".button");
 const body = document.querySelector("body");
 
 
-buttons.forEach(function (aman) {
-  aman.addEventListener("click", function (maggi) {
+buttons.forEach(function (button) {
+  button.addEventListener("click", function (maggi) {
     console.log(maggi.target.id);
 
     if (maggi.target.id === "grey") {
