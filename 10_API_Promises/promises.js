@@ -99,44 +99,53 @@
 
 // getAllUsers()
 
-fetch("https://api.github.com/users/hiteshchoudhary")
-  .then((response) => {
-    return response.json();
-  })
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((error) => console.log(error));
+// what is fetch?
+// fetch is a built-in JavaScript function that allows you to make network requests to retrieve resources from a server. It returns a promise that resolves to the Response object representing the response to the request.
+
+// fetch("https://api.github.com/users/hiteshchoudhary")
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((data) => {
+//     console.log(data);
+//   })
+//   .catch((error) => console.log(error));
 
 
 // what is promise.all?
 // promise.all is a method that takes an array of promises and returns a single promise that resolves when all of the promises in the array have resolved, or rejects if any of the promises in the array reject.
 // it is used to run multiple asynchronous operations in parallel and wait for all of them to complete before proceeding.
 
-// Example:
-const promiseA = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    resolve("Promise A resolved");
-  }, 1000);
-});
+// // Example:
+// const promiseA = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve("Promise A resolved");
+//   }, 1000);
+// });
 
-const promiseB = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    resolve("Promise B resolved");
-  }, 2000);
-});
-const promiseC = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    resolve("Promise C resolved");
-  }, 1500);
-});
-Promise.all([promiseA, promiseB, promiseC])
-  .then((values) => {
-    console.log(values); // ["Promise A resolved", "Promise B resolved", "Promise C resolved"]
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+// const promiseB = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve("Promise B resolved");
+//   }, 2000);
+// });
+// const promiseC = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve("Promise C resolved");
+//   }, 1500);
+// });
+// Promise.all([promiseA, promiseB, promiseC])
+//   .then((values) => {
+//     console.log(values); // ["Promise A resolved", "Promise B resolved", "Promise C resolved"]
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   });
+
+
+
+
+
+
 
 
 
