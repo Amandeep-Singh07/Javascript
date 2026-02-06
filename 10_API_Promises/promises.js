@@ -11,7 +11,7 @@
 //   setTimeout(function () {
 //     console.log("Async task is compelete");
 //     resolve();
-//   }, 1000);
+//   }, 2000);
 // });
 
 // promiseOne.then(function () {
@@ -22,7 +22,7 @@
 //   setTimeout(function () {
 //     console.log("Async task 2");
 //     resolve();
-//   }, 1000);
+//   }, 3000);
 // }).then(function () {
 //   console.log("Async 2 resolved");
 // });
@@ -33,13 +33,13 @@
 //   }, 1000);
 // });
 
-// promiseThree.then(function (user) {
-//   console.log(user);
+// promiseThree.then(function (u) {
+//   console.log(u);
 // });
 
 // const promiseFour = new Promise(function (resolve, reject) {
 //   setTimeout(function () {
-//     let error = false;
+//     let error = true;
 //     if (!error) {
 //       resolve({ username: "hitesh", password: "123" });
 //     } else {
@@ -49,7 +49,7 @@
 // });
 
 // promiseFour
-//   .then((user) => {
+//     .then((user) => {
 //     console.log(user);
 //     return user.username;
 //   })
@@ -93,7 +93,7 @@
 //         const data = await response.json()
 //         console.log(data);
 //     } catch (error) {
-//         console.log("E: ", error);
+//         console.log("Errorrrrr: ", error);
 //     }
 // }
 
@@ -140,6 +140,36 @@
 //   .catch((error) => {
 //     console.log(error);
 //   });
+
+
+// Example of callback hell
+
+// setTimeout(() => {
+//   console.log("Step 1");
+
+//   setTimeout(() => {
+//     console.log("Step 2");
+
+//     }, 1000);
+//   }, 1000);
+
+
+// see how promises can help to avoid callback hell
+// new Promise((resolve) => {
+//   setTimeout(() => {
+//     console.log("Step 1");
+//     resolve();
+//   }, 1000);
+// }).then(() => {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       console.log("Step 2");
+//       resolve();
+//     }, 1000);
+//   });
+// });
+
+
 
 
 
