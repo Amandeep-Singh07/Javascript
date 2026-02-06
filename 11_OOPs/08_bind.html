@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+</head>
+<body>
+    <button>Button Clicked</button>
+</body>
+<script>
+    class React {
+        constructor(){
+            this.library = "React"
+            this.server = "https://localhost:300"
+
+            
+            document
+                .querySelector('button')
+                .addEventListener('click', this.handleClick.bind(this))
+
+        }
+        handleClick(){
+            console.log("button clicked");
+            console.log(this.server);  // if we will not use bind keyword then this will be undefined because the context of the function will be lost when it is called as an event handler. By using bind(this), we are explicitly setting the context of the handleClick method to the current instance of the React class, which allows us to access the server property correctly when the button is clicked.
+        }
+    }
+
+    const app = new React()
+</script>
+</html>
